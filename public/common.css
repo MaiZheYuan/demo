@@ -1,0 +1,202 @@
+/* 》》》》》》》》》》》》》》》》》》
+reset
+》》》》》》》》》》》》》》》》》 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body a:hover {
+  color: inherit;
+}
+
+/* 》》》》》》》》》》》》》》》
+变量
+》》》》》》》》》》》》》》》 */
+:root {
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-focus: rgba(194, 27, 31, 1);
+  --color-gray: rgba(238, 238, 238, 1);
+  --color-shadow: rgba(0, 0, 0, 0.27);
+  --font-color-tit1: rgba(1, 1, 1, 1);
+  --font-color-normal: rgba(51, 51, 51, 1);
+  --font-color-gray: rgba(153, 153, 153, 1);
+  --font-color-grayer: rgba(102, 102, 102, 1);
+  --font-color-focus: rgba(194, 27, 31, 1);
+  --border-color-gray: rgba(238, 238, 238, 1);
+  --bg-block-out: #f9f9f9;
+  --bg-block-in: #f2f2f2;
+}
+/* 》》》》》》》》》》》》》》》》》》
+common
+》》》》》》》》》》》》》》》》》 */
+/* 1280 -- 1920 设计稿 1rem = 16px */
+html {
+  font-size: 0.8333333333333334vw !important;
+  color: var(--font-color-normal);
+}
+html body {
+  font-family: Microsoft YaHei;
+  overflow-x: hidden;
+}
+/* @media only screen 
+  and (min-width: 1280px) 
+  and (max-width: 1920px){
+    html{
+		font-size: 16px;
+	}
+} */
+
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+body {
+  background-image: url("/staticResource/sNCGLpropagate/imgs/底部地图.png");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% auto;
+  font-size: inherit !important;
+  line-height: 1;
+  /* font-size: 14px; */
+}
+/* body::after {
+  content: url("imgs/map.png");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
+.pointer {
+  cursor: pointer;
+}
+.noPointer {
+  pointer-events: none;
+}
