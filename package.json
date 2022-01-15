@@ -31,7 +31,7 @@
     "echarts": "^4.2.1",
     "highlight.js": "^9.14.2",
     "iview": "^3.2.2",
-    "marked": "^0.6.1",
+    "marked": "^4.0.10",
     "vant": "^2.2.9",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
